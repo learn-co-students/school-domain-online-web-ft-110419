@@ -42,7 +42,9 @@ You should be able to add a student to the school by calling the `add_student` m
 school.add_student("Zach Morris", 9)
 school.roster
 # => {9 => ["Zach Morris"]}
+# => school.roster[9] => ["Zach Morris", "Chris Metzger"]
 ``` 
+ => {'Chris' => 9}
 
 **Hint:** If the roster hash starts off as being empty, how will you add key/value pairs to it, where the value is an array? Let's take a look at an example: 
 
