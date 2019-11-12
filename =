@@ -1,0 +1,15 @@
+class School
+
+  def initialize(school_name)
+    @name = school_name
+    @roster = {} 
+  end
+
+  attr_accessor :name, :roster
+
+  def add_student(roster_name, roster_key)
+    @roster[roster_key]||
+    @roster[roster_key] << roster_name 
+  end
+
+end
